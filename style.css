@@ -1,0 +1,87 @@
+body {
+    font-family: Oswald, Oswald-Bold, Oswald-Regular;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #f0eff4; 
+}
+
+footer {
+    background-color: #291528; 
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid #3a3e3b;
+}
+
+header {
+    background-color: #291528; /* Header color */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    position: absolute;
+    left: 5px;
+    height: 200%;
+}
+
+header h1 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+footer {
+    bottom: 0;
+    border-top: 1px solid #3a3e3b; /* Switched colors */
+}
+
+main {
+    padding: 2em;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+p {
+    font-style: normal;
+    color: #f0eff4; /* Secondary text color, could be removed */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.product {
+    background-color: #3a3e3b; /* Secondary text color */
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product h2 {
+    color: #f0eff4; /* Main text color */
+}
+
+.product .price {
+    color: #f0eff4; /* Main text color */
+    font-weight: bold;
+}
