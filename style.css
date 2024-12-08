@@ -157,7 +157,30 @@ p {
     font-weight: bold;
 }
 
-.welcome-section,
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin: 10px 0;
+}
 .about-us {
     display: flex;
     flex-direction: column;
@@ -171,14 +194,12 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.welcome-section h1,
 .about-us h1 {
     font-size: 2rem;
-    margin-top: -20px;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
-.welcome-section p,
 .about-us p {
     line-height: 1.6;
     font-size: 1rem;
