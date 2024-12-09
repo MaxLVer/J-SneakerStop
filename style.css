@@ -106,6 +106,8 @@ footer {
 .social-media img {
     height: 24px;
     width: 24px;
+    
+    filter: invert(1) brightness(1);
 }
 
 .footer-right h3 {
@@ -255,7 +257,7 @@ hr {
     margin: 5px 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     header {
         display: flex;
         flex-direction: row;
@@ -306,5 +308,9 @@ hr {
 
     .footer-right ul {
         text-align: center;
+    }
+
+    .social-media img {
+        filter: invert(1) brightness(2);
     }
 }
