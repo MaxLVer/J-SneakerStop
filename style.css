@@ -32,6 +32,8 @@ header .logo {
     height: 80px;
     margin: 0 auto;
     transform: translateX(-45%);
+    padding-bottom: 5px;
+    padding-top: 2px;
 }
 
 .header-nav {
@@ -273,7 +275,7 @@ hr {
     }
 
     body {
-        font-family: Oswald, Oswald-Bold, Oswald-Regular;
+        font-family: 'Oswald';
         margin: 0;
         padding: 0;
         background-color: #000000;
@@ -282,6 +284,7 @@ hr {
         flex-direction: column;
         min-height: 100vh;
     }
+}
     
     .header-nav ul {
         display: flex;
@@ -314,11 +317,11 @@ hr {
     footer {
         display: flex;
         flex-direction: row;
-        padding: 1em;
+        padding: 0.5em;
     }
 
     .footer-right ul {
-        text-align: center;
+        text-align: right;
     }
 
     .social-media img {
