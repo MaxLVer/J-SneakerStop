@@ -263,14 +263,9 @@ p {
 .product .description {
     margin-top: auto;
     word-wrap: break-word;
-    visibility: hidden;
-    opacity: 0;
     transition: visibility 0s, opacity 0.3s ease;
 }
-.product:hover .description {
-    visibility: visible;
-    opacity: 1;
-}
+
 
 .tagline {
     margin-top: -0.5em;
