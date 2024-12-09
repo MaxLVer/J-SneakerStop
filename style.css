@@ -355,6 +355,27 @@ hr {
     max-width: 700px;
 }
 
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+    padding: 20px;
+    border-radius: 8px;
+    margin: 5px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1,
+.contact-section h2,
+.contact-section p,
+.contact-section ul {
+    margin: 5px 0;
+}
+
+    
 /* Mobiilinäkymän oma asettelu*/
 @media only screen and (max-width: 700px) {
     header {
