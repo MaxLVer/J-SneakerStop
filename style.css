@@ -577,6 +577,6 @@ p {
     
         .hero-text p {
             font-size: 4vw;
-            
+            /*For extremly small screens*/
         }
     }
