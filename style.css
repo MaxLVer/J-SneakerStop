@@ -170,6 +170,7 @@ p {
     z-index: 1;
     max-width: 90%;
     box-sizing: border-box;
+    text-wrap: nowrap;
 }
 
 .hero-text h1 {
@@ -441,7 +442,6 @@ p {
         flex-direction: column;
         min-height: 100vh;
     }
-}
     
     .header-nav ul {
         display: flex;
@@ -474,6 +474,10 @@ p {
     .product {
         width: calc(50% - 1em);
         margin-bottom: 1em;
+    }
+
+    .product .description {
+        visibility: hidden;
     }
 
     footer {
@@ -555,6 +559,23 @@ p {
         margin: 10px 0;
     }
 
+    @media (max-width: 700px) {
+        .hero-text {
+            padding: 20px;
+            white-space: normal;
+            text-wrap: nowrap;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 5vw;
+        }
+
+        .hero-text p {
+            font-size: 3vw;
+        }
+    }
+
     @media (max-width: 350px) {
         .hero-text {
             padding: 20px;
@@ -573,3 +594,4 @@ p {
             
         }
     }
+}
