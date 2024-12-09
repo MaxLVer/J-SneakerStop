@@ -4,14 +4,15 @@ body {
     padding: 0;
     background-color: #000000;
     color: #f0eff4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header, footer {
     background-color: #291528;
-    position: fixed;
     width: 100%;
     left: 0;
-    border-bottom: 1px solid #3a3e3b;
 }
 
 header {
@@ -22,13 +23,14 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 2em;
+    position: fixed;
 }
 
 header .logo {
     position: relative;
     height: 200px;
     margin: 0 auto;
-    transform: translateX(-50%);
+    transform: translateX(-75%);
 }
 
 .header-nav {
@@ -53,6 +55,12 @@ header .logo {
     text-decoration: underline;
 }
 
+main {
+    flex: 1;
+    padding: 2em;
+    margin-top: 80px;
+}
+
 footer {
     bottom: 0;
     text-align: center;
@@ -61,6 +69,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    margin-top: auto;
+    position: relative;
 }
 
 .footer-left, .footer-right {
@@ -118,12 +128,6 @@ footer {
     text-decoration: underline;
 }
 
-main {
-    padding: 2em;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
 p {
     font-style: normal;
     color: #f0eff4;
@@ -149,8 +153,6 @@ p {
     max-width: 100%;
     border-radius: 8px;
 }
-
-
 
 .product h2, .product .price {
     color: #ddd;
@@ -181,6 +183,7 @@ p {
     font-size: 1rem;
     margin: 5px 0;
 }
+
 .about-us {
     display: flex;
     flex-direction: column;
