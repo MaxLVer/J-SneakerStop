@@ -384,6 +384,7 @@ hr {
     z-index: 2;
     max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 ul {
@@ -528,8 +529,11 @@ p {
     }
 
     .content {
-    padding: 15px;
-    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
     }
 
     h1, h2, p {
