@@ -289,6 +289,24 @@ hr {
     margin: 5px 0;
 }
 
+.about-us .content-wrapper {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 20px 0;
+}
+
+.about-us .about-us-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-us div {
+    max-width: 700px;
+}
+
 /* Mobiilinäkymän oma asettelu*/
 @media only screen and (max-width: 700px) {
     header {
@@ -357,4 +375,18 @@ hr {
 
     .social-media img {
         filter: invert(1) brightness(2);
+    }
+
+    .about-us .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us .about-us-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .about-us div {
+        text-align: center;
     }
