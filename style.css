@@ -29,9 +29,9 @@ header {
 
 header .logo {
     position: relative;
-    height: 200px;
+    height: 80px;
     margin: 0 auto;
-    transform: translateX(-75%);
+    transform: translateX(-45%);
 }
 
 .header-nav {
@@ -266,8 +266,8 @@ hr {
     }
 
     header .logo {
-        height: 500%;
-        margin: 0;
+        height: 120%;
+        margin: 0px 0;
     }
 
     .header-nav ul {
