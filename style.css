@@ -196,6 +196,14 @@ p {
     color: #f0eff4;
 }
 
+hr {
+    border: 0;
+    height: 2px;
+    background: #f0eff4;
+    margin: 2em 0;
+    position: static;
+}
+
 .welcome-section {
     display: flex;
     flex-direction: column;
