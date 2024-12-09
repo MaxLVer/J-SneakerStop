@@ -479,6 +479,8 @@ hr {
         .hero-text {
             padding: 20px;
             white-space: normal;
+            text-wrap: nowrap;
+            text-align: center;
         }
     
         .hero-text h1 {
@@ -490,17 +492,20 @@ hr {
         }
     }
     
-    @media (max-width: 480px) {
+    @media (max-width: 350px) {
         .hero-text {
             padding: 20px;
             white-space: normal;
+            text-wrap: nowrap;
+            text-align: center;
         }
     
         .hero-text h1 {
-            font-size: 6vw;
+            font-size: 7vw;
         }
     
         .hero-text p {
             font-size: 4vw;
+            
         }
     }
