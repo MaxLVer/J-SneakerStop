@@ -382,7 +382,7 @@ hr {
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    filter: blur(8px);
+    filter: brightness(50%) blur(8px);
 }
 
 .content {
