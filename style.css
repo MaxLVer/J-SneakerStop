@@ -477,7 +477,7 @@ p {
     }
 
     .product .description {
-        visibility: hidden;
+        text-wrap: wrap;
     }
 
     footer {
