@@ -49,10 +49,13 @@ header .logo {
     color: #f0eff4;
     text-decoration: none;
     font-size: 1.2em;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
 }
 
 .header-nav ul li a:hover {
     text-decoration: underline;
+    transform: scale(1.1); 
+    color: #000000; 
 }
 
 main {
@@ -134,19 +137,35 @@ p {
 }
 
 .products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2em;
     padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
 .product {
     background-color: #3a3e3b;
     padding: 1em;
     border-radius: 8px;
-    text-align: center;
-    width: 200px;
+    text-align: left;
+    paint-order: #291528;
+    width: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product:hover {
+    background-color: #000000;
+    color: #cc0cdd;
+    transform: scale(1.1);
 }
 
 .product img {
@@ -154,9 +173,27 @@ p {
     border-radius: 8px;
 }
 
-.product h2, .product .price {
+.product h2 {
+    color: #f0eff4;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.product .price {
     color: #ddd;
     font-weight: bold;
+    margin-top: 0;
+}
+
+.product .description {
+    margin-top: auto;
+}
+
+.tagline {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #f0eff4;
 }
 
 .welcome-section {
